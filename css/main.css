@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Gothic A1", sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: #000000;
+  /*color: #000000;*/
   -webkit-font-variant-ligatures: common-ligatures;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
@@ -1525,6 +1525,7 @@ input::-moz-focus-inner {
 
 .h-dark-bg .section-intro::before {
   color: rgba(255, 255, 255, 0.08);
+
 }
 
 .h-dark-bg p.lead {
@@ -2447,7 +2448,7 @@ html.no-csstransitions .hero-content {
   position: relative;
 }
 
-.s-about .right-vert-line {
+.s-about .right-vert-line 
   background-color: #302c59;
 }
 
