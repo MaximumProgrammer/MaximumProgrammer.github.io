@@ -1239,7 +1239,7 @@ input::-moz-focus-inner {
 .skill-bars li {
   height: .4rem;
   background: #c3c3c3;
-  width: 100%;
+  width: 150%;
   margin-bottom: 7.8rem;
   padding: 0;
   position: relative;
