@@ -1709,6 +1709,7 @@ input::-moz-focus-inner {
  * ## main navigation
  * ------------------------------------------------------------------- */
 .header-nav-wrap {
+  max-height: 150px;
   max-width: 1400px;
   padding-left: 10px;
 }
