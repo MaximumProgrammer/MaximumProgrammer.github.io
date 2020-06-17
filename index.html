@@ -592,7 +592,7 @@
                     	<div class="folio-item__thumb-1">
                         	<a class="folio-item__thumb-link" href="images/devblog/MachineLearning.png" title="What's Deep Learning ?" data-size="800x600">
                             	<img src="images/devblog/MachineLearning.png" 
-                                	 srcset="images/devblog/MachineLearning.png 1x, images/devblog/MachineLearning.png@2x.jpg 2x" alt="">
+                                	 srcset="images/devblog/MachineLearning.png 1x, images/devblog/MachineLearning.png@2x.jpg 2x" alt="" class="img">
                         </a>
                     </div>
                     <div class="folio-item__info">
@@ -635,7 +635,7 @@
                     	<div class="folio-item__thumb-2">
                         	<a class="folio-item__thumb-link" href="images/devblog/FeedForwardNetwork.png" title="What's a Feed Forward Network ?" data-size="800x600">
                             	<img src="images/devblog/FeedForwardNetwork.png" 
-                                	 srcset="images/devblog/FeedForwardNetwork.png 1x, images/devblog/FeedForwardNetwork.png@2x.jpg 2x" alt="">
+                                	 srcset="images/devblog/FeedForwardNetwork.png 1x, images/devblog/FeedForwardNetwork.png@2x.jpg 2x" alt="" class="img">
                         </a>
                     </div>
                     <div class="folio-item__info">
@@ -652,7 +652,7 @@
 
 					<!--############################# -->
 
-		            <br>
+		    <br>
 
               	    <p style="color:#FFFFFF";	
 					<h1 class="display-2">
@@ -669,14 +669,14 @@
 					<div class="column 3">
                 		<div class="folio-item-3">
                     	<div class="folio-item__thumb-3">
-								<a class="folio-item__thumb-link" href="images/devblog/ConvNet2.png" title="What's a Convolutional Neural Network ? <br> (credits to https://towardsdatascience.com/) " data-size="800x600">
+								<a class="folio-item__thumb-link" href="images/devblog/ConvNet2.png" title="What's a Convolutional Neural Network ? (credits to https://towardsdatascience.com/) " data-size="800x600">
                             	<img src="images/devblog/ConvNet2.png" 
-                                	 srcset="images/devblog/ConvNet2.png 1x, images/devblog/ConvNet2.png@2x.jpg 2x" alt="">
+                                	 srcset="images/devblog/ConvNet2.png 1x, images/devblog/ConvNet2.png@2x.jpg 2x" alt="" class="img">
                         </a>
                     </div>
                     <div class="folio-item__info">
                         <div class="folio-item__cat">Convolutional Neural Network, credits to https://towardsdatascience.com/</div>
-                        <h4 class="folio-item__title">Convolutional Neural Network, credits to https://towardsdatascience.com/.</h4>
+                        <h4 class="folio-item__title">Convolutional Neural Network, credits to https://towardsdatascience.com/</h4>
                     </div>
                     <div class="folio-item__caption">
                         <p>This presents a stantard convolutional neural network, credits to https://towardsdatascience.com/</p>
@@ -686,8 +686,164 @@
 
 					</h2>
 
-                </div>
+					<!--############################# -->
 
+                    <br>
+
+              	    <p style="color:#FFFFFF";	
+					<h1 class="display-2">
+                    Classification vs. Object Detection    
+	            </h1>
+					</p>
+
+		            <p style="color:#FFFFFF";
+					<h2 class="display-4"> 
+                             In machine learning especially in deep neural networks there are two main issues, classification and object detection. In classification problems the aim is to say
+ 			      of different objects are searched, so object detection is a special case of localization and classification. Just because not only the position is searches wher
+                              compute intensive.
+	            </p>
+
+					<div class="column 3">
+                		<div class="folio-item-3">
+                    	<div class="folio-item__thumb-3">
+								<a class="folio-item__thumb-link" href="images/devblog/ClassificationVsDetection.png" title="Classification vs. Object Detection (credits to https://towardsdatascience.com/)" data-size="800x600">
+                            	<img src="images/devblog/ClassificationVsDetection.png" 
+                                	 srcset="images/devblog/ClassificationVsDetection.png 1x, images/devblog/ClassificationVsDetection.png@2x.jpg 2x" alt="" class="center">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Classification vs Object Detection, credits to http://machinethink.net/blog/object-detection-with-yolo/</div>
+                        <h4 class="folio-item__title">Classification vs Object Detection, credits to http://machinethink.net/blog/object-detection-with-yolo/</h4>
+                    </div>
+                    <div class="folio-item__caption">
+                        <p>This presents a stantard convolutional neural network, credits to https://towardsdatascience.com/</p>
+                    </div>
+         			</div>
+					</div> 
+
+					</h2>
+
+					<!--############################# -->
+                    <br>
+
+              	    <p style="color:#FFFFFF";	
+					<h1 class="display-2">
+                    How about Yolo ?
+                    </h1>
+					</p>
+
+		    <p style="color:#FFFFFF";
+					<h2 class="display-4"> 
+                     Yolo is a state-of-the-art, object detection system (network). This framework was developed by Joseph Redmon. The biggest advantage for Yolo  over other popular architectures is speed. The Yolo model family models are really fast, much faster than other libraries for object detection as before.
+		     With this framework it is possible to achieve real-time object detection. 
+
+                     <br>
+		     <br>
+		     YOLO has reformulated an object detection problem into a single regression problem. It goes from image pixeles to bounding box coordinates and class probabilities. Such that a single convolutional network predicts different bounding boxes with the according class probabilities for the according boxes.
+		     <br>
+                     <br>
+                    As Yolo works with only one look at the image, so Yolo is not using a sliding window approach. Yolo is splitting the image in an grid. These grid will have S×S dimensions. So each grid cell is predicting different values.
+
+                    First, each cell is predicting a descent some number of bounding boxes. Also, each cell will predict confidence value for each bounding box In other word, this is a probability that a box contains an object. In case that there is no object in some grid cell, it is important that the according confidence value is really low.
+
+                    If all predictions are vizualized, a map is gained of all the objects and a bunch of boxes which is ranked by their confidence value.
+
+		    </p>
+
+					<div class="column 3">
+                		<div class="folio-item-3">
+                    	<div class="folio-item__thumb-3">
+								<a class="folio-item__thumb-link" href="images/devblog/yolo.png" title="What's a Convolutional Neural Network ? (credits to http://datahacker.rs/tensorflow2-0-yolov3/) " data-size="800x600">
+                            	<img src="images/devblog/yolo.png" 
+                                	 srcset="images/devblog/yolo.png 1x, images/devblog/yolo.png@2x.jpg 2x" alt="" class="center" class="center">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">What is Yolo? credits to http://datahacker.rs/tensorflow2-0-yolov3/</div>
+                        <h4 class="folio-item__title">What is Yolo? credits to http://datahacker.rs/tensorflow2-0-yolov3//</h4>
+                    </div>
+                    <div class="folio-item__caption">
+                        <p>This figure shows how Yolo works for more information take a look at http://datahacker.rs/tensorflow2-0-yolov3/</p>
+                    </div>
+
+		     <br>
+                     The next thing, each cell is responsible for predicting some class probabilities. It doesn't mean each cell contains an object, this is just a probability. For example if a grid cell predicts car, it is not saying that there is a car, it is just saying that if there is an object, than that object is a car.
+                     <br> 
+
+		     <br>
+                     So decribe some things in more detail.
+                     <br>
+
+		     <br>
+                     In Yolo, anchor boxes are used to predict bounding boxes. The main idea of this concept is to define different shapes. They are called anchor boxes or anchor box shapes. This leads to the possible to relate to a single object through different anchor boxes. In general, different numbers of anchor boxes are used to find an object. With the help of the anchor boxes and probabilities an object can be located and classified.
+		     
+		    </h2>
+
+		    </p>
+
+					<div class="column 3">
+                		<div class="folio-item-3">
+                    	<div class="folio-item__thumb-3">
+								<a class="folio-item__thumb-link" href="images/devblog/yoloanchor.png " title="How anchor boxes are working ? (credits to https://towardsdatascience.com/) " data-size="800x600">
+                            	<img src="images/devblog/yoloanchor.png" 
+                                	 srcset="images/devblog/yoloanchor.png 1x, images/devblog/yoloanchor.png @2x.jpg 2x" alt="" class="center" class="center" width="50%">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">How Yolo anchor boxes are working http://datahacker.rs/tensorflow2-0-yolov3/</div>
+                        <h4 class="folio-item__title">How Yolo anchor boxes are working to http://datahacker.rs/tensorflow2-0-yolov3//</h4>
+                    </div>
+                    <div class="folio-item__caption">
+                        <p>This figure shows how Yolo anchor boxes are working http://datahacker.rs/tensorflow2-0-yolov3/</p>
+                    </div>
+         			</div>
+					</div> 
+
+					</h2>
+                    <br>
+                       
+
+
+                    <p style="color:#FFFFFF";	
+					<h1 class="display-2">
+                    How does YoloV3 look like ?  
+	            </h1>
+					</p>
+
+		            <p style="color:#FFFFFF";
+					<h2 class="display-4">
+					The most import thing about YoloV3 is that it uses features at different scales, that is to detect objectes on different levels.
+
+                            </p>
+
+					<div class="column 3">
+                		<div class="folio-item-3">
+                    	<div class="folio-item__thumb-3">
+								<a class="folio-item__thumb-link" href="images/devblog/yolostructure.png" title="Yolo V3 structure (credits to https://pylessons.com/YOLOv3-TF2-introduction/) " data-size="800x600">
+                            	<img src="images/devblog/yolostructure.png" 
+                                	 srcset="images/devblog/yolostructure.png 1x, images/devblog/yolostructure.png@2x.jpg 2x" alt="" class="center">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat">Structure of YoloV3, credits to https://pylessons.com/YOLOv3-TF2-introduction/</div>
+                        <h4 class="folio-item__title">Structure of YoloV3, credits to https://pylessons.com/YOLOv3-TF2-introduction/</h4>
+                    </div>
+                    <div class="folio-item__caption">
+                        <p>This shows which structure YoloV3 has, credits to https://towardsdatascience.com/</p>
+                    </div>
+         			</div>
+					</div> 
+
+					</h2>
+
+					<!--############################# -->
+                    <br>
+
+
+
+
+       	     <!--############################# -->
+		   
           </div> <!-- end  s-services--leftcol -->
 
         </div> <!-- s-services__content -->
