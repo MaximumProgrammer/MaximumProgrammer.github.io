@@ -63,14 +63,14 @@
 										   <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
 										   <li><a class="smoothscroll" href="#about" title="About">About</a></li>
 										   <li><a class="smoothscroll" href="#skills" title="Skills">Skills</a></li>
-										   <li><a class="smoothscroll" href="#works" title="Works">Works</a></li>
 										   <li><a class="smoothscroll" href="#devblog" title="Dev Blog">Dev Blog</a></li>
+										   <li><a class="smoothscroll" href="#works" title="Works">Works</a></li>
 										   <li><a class="smoothscroll" href="#travelling" title="Travelling">Travelling</a></li>
 										   <li><a href="mailto:Markus.Gruber4@gmx.net", Markus Gruber title="Contact us">Say Hello</a></li>
 								   </ul>
 						   </nav> <!-- end header-nav-wrap -->
 
-						   <a href="documents/CV_Markus_Gruber_Englisch.pdf" class="btn btn--stroke btn--small">Download CV</a>
+						   <a href="documents/CV_Markus_Gruber_Englisch.pdf" class="btn btn--stroke btn--medium">Download CV</a>
 
 				   </div> <!-- end header-content -->
 
@@ -541,316 +541,350 @@
 		   </section> <!-- end s-services -->
 
 
-		   <!-- portfolio
+		   <style>
+img2{
+
+		max-width: 100%;
+
+		max-height: 100%;
+
+		display: block; /* remove extra space below image */
+
+}
+
+		.box{
+
+				width: 250px;
+
+				border: 5px solid black;
+
+		}
+
+		.box.large{
+
+				height: 300px;
+
+		}
+
+		.box.small{
+
+				height: 100px;
+
+		}
+
+		   </style>
+
+		   <!-- devblog
 			 ================================================== -->
-			 <section id="works" class="s-portfolio target-section">
+			 <section id="devblog" class="s-career target-section h-dark-bg">
 
-					 <div class="row s-portfolio__header">
-							 <div class="column large-6 medium-8 tab-full">
-									 <div class="section-intro" data-num="03" data-aos="fade-up">
-											 <h3 class="subhead">Portfolio</h3>
-											 <h1 class="display-1">
-													 A selection of recent projects I have worked on.
-											 </h1>
+					 <div class="row s-services__content">
+
+							 <div class="vert-line"></div>
+
+							 <div class="section-intro" data-num="03" data-aos="fade-up">
+									 <h3 class="subhead">Developer Blog</h3>
+
+									 <h1 class="display-1">
+											 This is my section where i am contributing different topics from my work like programming and different research topics.
+									 </h1>
+
+
+									 <p style="color:#FFFFFF";
+									 <h1 class="display-2">
+											 What is Deep Learning ?
+									 </h1>
+									 </p>
+
+									 <p style="color:#FFFFFF";
+									 <h2 class="display-4">
+											 Deep learning is a special theme which is mainly centered in machine learning but due it's relevance and complexity it can be as big as machine learning and stand alone. Machine learning is as well
+											 a special topic rooted in artifical intelligence both methods machine learning and deep learning try to imitate human logic and behavior due artifical intelligence. 10 years ago deep learning got special interests because theses methods can solve problems which weren't able before.
+											 The concept is mainly based on the human physiology or biology of the human brain. Deep Learning can solve classification and object detection problems but also other difficulties. The according methods are fast evolving. Some methods like for autonmous driving are really interesting.
+									 </p>
+
+									 <div class="column 1" >
+											 <div class="folio-item-1">
+													 <div class="folio-item__thumb-1">
+															 <a class="folio-item__thumb-link" href="images/devblog/MachineLearning.png" title="What's Deep Learning ?" data-size="800x600">
+																	 <img src="images/devblog/MachineLearning.png"
+																	 srcset="images/devblog/MachineLearning.png 1x, images/devblog/MachineLearning.png@2x.jpg 2x" alt="" class="center">
+															 </a>
+													 </div>
+													 <div class="folio-item__info">
+															 <div class="folio-item__cat">Branding</div>
+															 <h4 class="folio-item__title">What's Deep Learning ?</h4>
+													 </div>
+													 <div class="folio-item__caption">
+															 <p>This picture was taken where the birthhouse of King Arthur was.</p>
+													 </div>
+											 </div>
 									 </div>
-							 </div>
-					 </div> <!-- s-porfolio__header -->
 
-			 </section> <!-- end portfolio -->
+									 </h2>
 
-			 <!-- devblog
+									 <!--############################# -->
+
+									 <br>
+
+									 <p style="color:#FFFFFF";
+									 <h1 class="display-2">
+											 What is a Feed Forward Network (FFN)?
+									 </h1>
+									 </p>
+
+									 <p style="color:#FFFFFF";
+									 <h2 class="display-4">
+											 Deep feedforward networks or also known multilayer perceptrons are the base of most of deep learning models. Networks like  CNNs (Convolutional Neural Networks) and RNNs (Recurrent neural networks) are just some special cases of feedforward networks. All these methods are mostly used for supervised machine learning tasks where we already know the target function for example the result we want our network to achieve which are extremely important for practicing machine learning and are the basis for many applications, topics such as computer vision were greatly affected by the presence of these networks.
+
+											 <br>
+											 <br>
+											 The main aim of a feedforward network is to approximate some function (<MATH>f</MATH>). A regression problem with function <MATH> y = f(x) </MATH>  maps an input <MATH> x </MATH> to a value <MATH> y </MATH>. Wheras a feedforward network computes a mapping <MATH> y_predictions = f (x; θ) </MATH>  which learns the value of the parameter <MATH> θ </MATH> that result in the best function approximation, such that the error between <MATH> y_target - f(x) </MATH> is small enough, where <MATH> y_target </MATH> are the true values.
+
+											 <br>
+											 <br>
+											 The reason why these networks are called feedforward is that the flow of information takes place in the forward direction, where <MATH> x </MATH> is used to calculate some intermediate values and states in the hidden layers which in turn is used to calculate the output <MATH> y </MATH>. So if we would add feedback from the last hidden layer to the previouse hidden layer, this network would represent a recurrent neural network.
+									 </p>
+
+									 <div class="column 2">
+											 <div class="folio-item-2">
+													 <div class="folio-item__thumb-2">
+															 <a class="folio-item__thumb-link" href="images/devblog/FeedForwardNetwork.png" title="What's a Feed Forward Network ?" data-size="800x600">
+																	 <img src="images/devblog/FeedForwardNetwork.png"
+																	 srcset="images/devblog/FeedForwardNetwork.png 1x, images/devblog/FeedForwardNetwork.png@2x.jpg 2x" alt="" class="center">
+															 </a>
+													 </div>
+													 <div class="folio-item__info">
+															 <div class="folio-item__cat">Feed Forward Network</div>
+															 <h4 class="folio-item__title">Feed Forward Network ?</h4>
+													 </div>
+													 <div class="folio-item__caption">
+															 <p>This presents a standard feed forward network.</p>
+													 </div>
+											 </div>
+									 </div>
+
+									 </h2>
+
+									 <!--############################# -->
+
+									 <br>
+
+									 <p style="color:#FFFFFF";
+									 <h1 class="display-2">
+											 What is a Convolutional Neural Network (CNN)?
+									 </h1>
+									 </p>
+
+									 <p style="color:#FFFFFF";
+									 <h2 class="display-4">
+											 Convolutional neural networks are neural networks which are specialized for image recognition tasks.  You can think of them as a feed forward network with some trainable image filters in front. These filters are detecting some special features like edges or vertices , in the so called convolutional layers and resizing (in pooling layers).
+											 These image filters (also known as kernels) are able to learn to extract and recognize  patterns from the input image. Convolutional networks or CNNs are used for computer vision tasks like image classification and object detection. Training a CNN can be really a burden because of the computing complexity.
+									 </p>
+
+									 <div class="column 3">
+											 <div class="folio-item-3">
+													 <div class="folio-item__thumb-3">
+															 <a class="folio-item__thumb-link" href="images/devblog/ConvNet2.png" title="What's a Convolutional Neural Network ? (credits to https://towardsdatascience.com/) " data-size="800x600">
+																	 <img src="images/devblog/ConvNet2.png"
+																	 srcset="images/devblog/ConvNet2.png 1x, images/devblog/ConvNet2.png@2x.jpg 2x" alt="" class="center">
+															 </a>
+													 </div>
+													 <div class="folio-item__info">
+															 <div class="folio-item__cat">Convolutional Neural Network, credits to https://towardsdatascience.com/</div>
+															 <h4 class="folio-item__title">Convolutional Neural Network, credits to https://towardsdatascience.com/</h4>
+													 </div>
+													 <div class="folio-item__caption">
+															 <p>This presents a stantard convolutional neural network, credits to https://towardsdatascience.com/</p>
+													 </div>
+											 </div>
+									 </div>
+
+									 </h2>
+
+									 <!--############################# -->
+
+									 <br>
+
+									 <p style="color:#FFFFFF";
+									 <h1 class="display-2">
+											 Classification vs. Object Detection
+									 </h1>
+									 </p>
+
+									 <p style="color:#FFFFFF";
+									 <h2 class="display-4">
+											 In machine learning especially in deep neural networks there are two main issues, classification and object detection. In classification problems the aim is to say to what class belongs this image wheras in object detection the questions are: what is is and where it is, so object detection is a special case of localization and classification. Just because not only the position is searched this problem is far more complex than classification.
+									 </p>
+
+									 <div class="column 3">
+											 <div class="folio-item-3">
+													 <div class="folio-item__thumb-3">
+															 <a class="folio-item__thumb-link" href="images/devblog/ClassificationVsDetection.png" title="Classification vs. Object Detection (credits to https://towardsdatascience.com/)" data-size="800x600">
+																	 <img src="images/devblog/ClassificationVsDetection.png"
+																	 srcset="images/devblog/ClassificationVsDetection.png 1x, images/devblog/ClassificationVsDetection.png@2x.jpg 2x" alt="" class="center">
+															 </a>
+													 </div>
+													 <div class="folio-item__info">
+															 <div class="folio-item__cat">Classification vs Object Detection, credits to http://machinethink.net/blog/object-detection-with-yolo/</div>
+															 <h4 class="folio-item__title">Classification vs Object Detection, credits to http://machinethink.net/blog/object-detection-with-yolo/</h4>
+													 </div>
+													 <div class="folio-item__caption">
+															 <p>This presents a stantard convolutional neural network, credits to https://towardsdatascience.com/</p>
+													 </div>
+											 </div>
+									 </div>
+
+									 </h2>
+
+									 <!--############################# -->
+									 <br>
+
+									 <p style="color:#FFFFFF";
+									 <h1 class="display-2">
+											 How about Yolo ?
+									 </h1>
+									 </p>
+
+									 <p style="color:#FFFFFF";
+									 <h2 class="display-4">
+											 Yolo is a state-of-the-art, object detection system (network). This framework was developed by Joseph Redmon (<a href="https://pjreddie.com/darknet/yolo/">Darknet Yolo</a>). The biggest advantage for Yolo  over other popular architectures is speed. The Yolo model family models are really fast, much faster than other libraries for object detection as before.
+											 With this framework it is possible to achieve real-time object detection.
+
+											 <br>
+											 <br>
+											 YOLO has reformulated an object detection problem into a single regression problem. It goes from image pixeles to bounding box coordinates and class probabilities. Such that a single convolutional network predicts different bounding boxes with the according class probabilities for the according boxes.
+											 <br>
+											 <br>
+											 As Yolo works with only one look at the image, so this network is not using a sliding window approach. Yolo is splitting the image in an grid. These grid will have S×S dimensions. So each grid cell is predicting different values.
+
+											 First, each cell is predicting a descent number of bounding boxes. Also, each cell will predict confidence value for each bounding box. In other word, this is a probability that a box contains an object. In case that there is no object in some grid cell, it is important that the according confidence value is really low.
+
+											 If all predictions are vizualized, a map is gained of all the objects and a bunch of boxes which is ranked by their confidence value.
+
+											 <div class="column 3">
+													 <div class="folio-item-3">
+															 <div class="folio-item__thumb-3">
+																	 <a class="folio-item__thumb-link" href="images/devblog/yolo.png" title="What's a Convolutional Neural Network ? (credits to http://datahacker.rs/tensorflow2-0-yolov3/) " data-size="800x600">
+																			 <img src="images/devblog/yolo.png"
+																			 srcset="images/devblog/yolo.png 1x, images/devblog/yolo.png@2x.jpg 2x" alt="" class="center">
+																	 </a>
+															 </div>
+															 <div class="folio-item__info">
+																	 <div class="folio-item__cat">What is Yolo? credits to http://datahacker.rs/tensorflow2-0-yolov3/</div>
+																	 <h4 class="folio-item__title">What is Yolo? credits to http://datahacker.rs/tensorflow2-0-yolov3//</h4>
+															 </div>
+															 <div class="folio-item__caption">
+																	 <p>This figure shows how Yolo works for more information take a look at http://datahacker.rs/tensorflow2-0-yolov3/</p>
+															 </div>
+
+													 </div>
+											 </div>
+
+									 </h2>
+
+									 <br>
+									 The next thing, each cell is responsible for predicting some class probabilities. It doesn't mean each cell contains an object, this is just a probability. For example if a grid cell predicts car, it is not saying that there is a car, it is just saying that if there is an object, than that object is a car.
+									 <br>
+
+									 <br>
+									 So decribe some things in more detail.
+									 <br>
+
+									 <br>
+									 In Yolo, anchor boxes are used to predict bounding boxes. The main idea of this concept is to define different shapes. They are called anchor boxes or anchor box shapes. This leads to the possibility to relate to a single object through different anchor boxes. In general, different numbers of anchor boxes are used to find an object. With the help of the anchor boxes and probabilities an object can be located and classified.
+
+									 </h2>
+
+									 </p>
+
+									 <div class="column 3">
+											 <div class="folio-item-3">
+													 <div class="folio-item__thumb-3">
+															 <a class="folio-item__thumb-link" href="images/devblog/yoloanchor.png" title="How anchor boxes are working ? (credits to https://towardsdatascience.com/) " data-size="800x600">
+																	 <img src="images/devblog/yoloanchor.png"
+																	 srcset="images/devblog/yoloanchor.png 1x, images/devblog/yoloanchor.png@2x.jpg 2x" alt="" class="center">
+															 </a>
+													 </div>
+													 <div class="folio-item__info">
+															 <div class="folio-item__cat">How Yolo anchor boxes are working http://datahacker.rs/tensorflow2-0-yolov3/</div>
+															 <h4 class="folio-item__title">How Yolo anchor boxes are working to http://datahacker.rs/tensorflow2-0-yolov3//</h4>
+													 </div>
+													 <div class="folio-item__caption">
+															 <p>This figure shows how Yolo anchor boxes are working http://datahacker.rs/tensorflow2-0-yolov3/</p>
+													 </div>
+											 </div>
+									 </div>
+
+									 </h2>
+									 <br>
+
+									 <p style="color:#FFFFFF";
+									 <h1 class="display-2">
+											 How does YoloV3 look like ?
+									 </h1>
+									 </p>
+
+									 <p style="color:#FFFFFF";
+									 <h2 class="display-4">
+											 The most import thing about YoloV3 is that it uses features at different scales, that is to detect objectes on different levels. This approach makes Yolo really accurate but it takes also some more computations and makes the network more complex.
+
+									 </h2>
+
+									 </p>
+
+									 <div class="column 3">
+											 <div class="folio-item-3">
+													 <div class="folio-item__thumb-3">
+															 <a class="folio-item__thumb-link" href="images/devblog/yolostructure.png" title="Yolo V3 structure (credits to https://pylessons.com/YOLOv3-TF2-introduction/) " data-size="800x600">
+																	 <img src="images/devblog/yolostructure.png"
+																	 srcset="images/devblog/yolostructure.png 1x, images/devblog/yolostructure.png@2x.jpg 2x" alt="" class="center">
+															 </a>
+													 </div>
+													 <div class="folio-item__info">
+															 <div class="folio-item__cat">Structure of YoloV3, credits to https://pylessons.com/YOLOv3-TF2-introduction/</div>
+															 <h4 class="folio-item__title">Structure of YoloV3, credits to https://pylessons.com/YOLOv3-TF2-introduction/</h4>
+													 </div>
+													 <div class="folio-item__caption">
+															 <p>This shows which structure YoloV3 has, credits to https://towardsdatascience.com/</p>
+													 </div>
+											 </div>
+									 </div>
+
+									 </h2>
+
+
+									 <!--############################# -->
+									 <br>
+
+
+
+
+									 <!--############################# -->
+
+							 </div> <!-- end  s-services--leftcol -->
+
+					 </div> <!-- s-services__content -->
+
+			 </section> <!-- end s-services -->
+
+			 <!-- portfolio
 			================================================== -->
-			<section id="devblog" class="s-services target-section h-dark-bg">
+			<section id="works" class="s-portfolio target-section">
 
-					<div class="row s-services__content">
-
-							<div class="vert-line"></div>
-
-							<div class="section-intro" data-num="04" data-aos="fade-up">
-									<h3 class="subhead">Developer Blog</h3>
-
-									<h1 class="display-1">
-											This is my section where i am contributing different topics from my work like programming and different research topics.
-									</h1>
-
-
-									<p style="color:#FFFFFF";
-									<h1 class="display-2">
-											What is Deep Learning ?
-									</h1>
-									</p>
-
-									<p style="color:#FFFFFF";
-									<h2 class="display-4">
-											Deep learning is a special theme which is mainly centered in machine learning but due it's relevance and complexity it can be as big as machine learning and stand alone. Machine learning is as well
-											a special topic rooted in artifical intelligence both methods machine learning and deep learning try to imitate human logic and behavior due artifical intelligence. 10 years ago deep learning got special interests because theses methods can solve problems which weren't able before.
-											The concept is mainly based on the human physiology or biology of the human brain. Deep Learning can solve classification and object detection problems but also other difficulties. The according methods are fast evolving. Some methods like for autonmous driving are really interesting.
-									</p>
-
-									<div class="column 1" >
-											<div class="folio-item-1">
-													<div class="folio-item__thumb-1">
-															<a class="folio-item__thumb-link" href="images/devblog/MachineLearning.png" title="What's Deep Learning ?" data-size="800x600">
-																	<img src="images/devblog/MachineLearning.png"
-																	srcset="images/devblog/MachineLearning.png 1x, images/devblog/MachineLearning.png@2x.jpg 2x" alt="" class="center">
-															</a>
-													</div>
-													<div class="folio-item__info">
-															<div class="folio-item__cat">Branding</div>
-															<h4 class="folio-item__title">What's Deep Learning ?</h4>
-													</div>
-													<div class="folio-item__caption">
-															<p>This picture was taken where the birthhouse of King Arthur was.</p>
-													</div>
-											</div>
+					<div class="row s-portfolio__header">
+							<div class="column large-6 medium-8 tab-full">
+									<div class="section-intro" data-num="04" data-aos="fade-up">
+											<h3 class="subhead">Portfolio</h3>
+											<h1 class="display-1">
+													A selection of recent projects I have worked on.
+											</h1>
 									</div>
+							</div>
+					</div> <!-- s-porfolio__header -->
 
-									</h2>
+			</section> <!-- end portfolio -->
 
-									<!--############################# -->
-
-									<br>
-
-									<p style="color:#FFFFFF";
-									<h1 class="display-2">
-											What is a Feed Forward Network (FFN)?
-									</h1>
-									</p>
-
-									<p style="color:#FFFFFF";
-									<h2 class="display-4">
-											Deep feedforward networks or also known multilayer perceptrons are the base of most of deep learning models. Networks like  CNNs (Convolutional Neural Networks) and RNNs (Recurrent neural networks) are just some special cases of feedforward networks. All these methods are mostly used for supervised machine learning tasks where we already know the target function for example the result we want our network to achieve which are extremely important for practicing machine learning and are the basis for many applications, topics such as computer vision were greatly affected by the presence of these networks.
-
-											<br>
-											<br>
-											The main aim of a feedforward network is to approximate some function (<MATH>f</MATH>). A regression problem with function <MATH> y = f(x) </MATH>  maps an input <MATH> x </MATH> to a value <MATH> y </MATH>. Wheras a feedforward network computes a mapping <MATH> y_predictions = f (x; θ) </MATH>  which learns the value of the parameter <MATH> θ </MATH> that result in the best function approximation, such that the error between <MATH> y_target - f(x) </MATH> is small enough, where <MATH> y_target </MATH> are the true values.
-
-											<br>
-											<br>
-											The reason why these networks are called feedforward is that the flow of information takes place in the forward direction, where <MATH> x </MATH> is used to calculate some intermediate values and states in the hidden layers which in turn is used to calculate the output <MATH> y </MATH>. So if we would add feedback from the last hidden layer to the previouse hidden layer, this network would represent a recurrent neural network.
-									</p>
-
-									<div class="column 2">
-											<div class="folio-item-2">
-													<div class="folio-item__thumb-2">
-															<a class="folio-item__thumb-link" href="images/devblog/FeedForwardNetwork.png" title="What's a Feed Forward Network ?" data-size="800x600">
-																	<img src="images/devblog/FeedForwardNetwork.png"
-																	srcset="images/devblog/FeedForwardNetwork.png 1x, images/devblog/FeedForwardNetwork.png@2x.jpg 2x" alt="" class="center">
-															</a>
-													</div>
-													<div class="folio-item__info">
-															<div class="folio-item__cat">Feed Forward Network</div>
-															<h4 class="folio-item__title">Feed Forward Network ?</h4>
-													</div>
-													<div class="folio-item__caption">
-															<p>This presents a standard feed forward network.</p>
-													</div>
-											</div>
-									</div>
-
-									</h2>
-
-									<!--############################# -->
-
-									<br>
-
-									<p style="color:#FFFFFF";
-									<h1 class="display-2">
-											What is a Convolutional Neural Network (CNN)?
-									</h1>
-									</p>
-
-									<p style="color:#FFFFFF";
-									<h2 class="display-4">
-											Convolutional neural networks are neural networks which are specialized for image recognition tasks.  You can think of them as a feed forward network with some trainable image filters in front. These filters are detecting some special features like edges or vertices , in the so called convolutional layers and resizing (in pooling layers).
-											These image filters (also known as kernels) are able to learn to extract and recognize  patterns from the input image. Convolutional networks or CNNs are used for computer vision tasks like image classification and object detection. Training a CNN can be really a burden because of the computing complexity.
-									</p>
-
-									<div class="column 3">
-											<div class="folio-item-3">
-													<div class="folio-item__thumb-3">
-															<a class="folio-item__thumb-link" href="images/devblog/ConvNet2.png" title="What's a Convolutional Neural Network ? (credits to https://towardsdatascience.com/) " data-size="800x600">
-																	<img src="images/devblog/ConvNet2.png"
-																	srcset="images/devblog/ConvNet2.png 1x, images/devblog/ConvNet2.png@2x.jpg 2x" alt="" class="center">
-															</a>
-													</div>
-													<div class="folio-item__info">
-															<div class="folio-item__cat">Convolutional Neural Network, credits to https://towardsdatascience.com/</div>
-															<h4 class="folio-item__title">Convolutional Neural Network, credits to https://towardsdatascience.com/</h4>
-													</div>
-													<div class="folio-item__caption">
-															<p>This presents a stantard convolutional neural network, credits to https://towardsdatascience.com/</p>
-													</div>
-											</div>
-									</div>
-
-									</h2>
-
-									<!--############################# -->
-
-									<br>
-
-									<p style="color:#FFFFFF";
-									<h1 class="display-2">
-											Classification vs. Object Detection
-									</h1>
-									</p>
-
-									<p style="color:#FFFFFF";
-									<h2 class="display-4">
-											In machine learning especially in deep neural networks there are two main issues, classification and object detection. In classification problems the aim is to say to what class belongs this image wheras in object detection the questions are: what is is and where it is, so object detection is a special case of localization and classification. Just because not only the position is searched this problem is far more complex than classification.
-									</p>
-
-									<div class="column 3">
-											<div class="folio-item-3">
-													<div class="folio-item__thumb-3">
-															<a class="folio-item__thumb-link" href="images/devblog/ClassificationVsDetection.png" title="Classification vs. Object Detection (credits to https://towardsdatascience.com/)" data-size="800x600">
-																	<img src="images/devblog/ClassificationVsDetection.png"
-																	srcset="images/devblog/ClassificationVsDetection.png 1x, images/devblog/ClassificationVsDetection.png@2x.jpg 2x" alt="" class="center">
-															</a>
-													</div>
-													<div class="folio-item__info">
-															<div class="folio-item__cat">Classification vs Object Detection, credits to http://machinethink.net/blog/object-detection-with-yolo/</div>
-															<h4 class="folio-item__title">Classification vs Object Detection, credits to http://machinethink.net/blog/object-detection-with-yolo/</h4>
-													</div>
-													<div class="folio-item__caption">
-															<p>This presents a stantard convolutional neural network, credits to https://towardsdatascience.com/</p>
-													</div>
-											</div>
-									</div>
-
-									</h2>
-
-									<!--############################# -->
-									<br>
-
-									<p style="color:#FFFFFF";
-									<h1 class="display-2">
-											How about Yolo ?
-									</h1>
-									</p>
-
-									<p style="color:#FFFFFF";
-									<h2 class="display-4">
-											Yolo is a state-of-the-art, object detection system (network). This framework was developed by Joseph Redmon (<a href="https://pjreddie.com/darknet/yolo/">Darknet Yolo</a>). The biggest advantage for Yolo  over other popular architectures is speed. The Yolo model family models are really fast, much faster than other libraries for object detection as before.
-											With this framework it is possible to achieve real-time object detection.
-
-											<br>
-											<br>
-											YOLO has reformulated an object detection problem into a single regression problem. It goes from image pixeles to bounding box coordinates and class probabilities. Such that a single convolutional network predicts different bounding boxes with the according class probabilities for the according boxes.
-											<br>
-											<br>
-											As Yolo works with only one look at the image, so this network is not using a sliding window approach. Yolo is splitting the image in an grid. These grid will have S×S dimensions. So each grid cell is predicting different values.
-
-											First, each cell is predicting a descent number of bounding boxes. Also, each cell will predict confidence value for each bounding box. In other word, this is a probability that a box contains an object. In case that there is no object in some grid cell, it is important that the according confidence value is really low.
-
-											If all predictions are vizualized, a map is gained of all the objects and a bunch of boxes which is ranked by their confidence value.
-
-											<div class="column 3">
-													<div class="folio-item-3">
-															<div class="folio-item__thumb-3">
-																	<a class="folio-item__thumb-link" href="images/devblog/yolo.png" title="What's a Convolutional Neural Network ? (credits to http://datahacker.rs/tensorflow2-0-yolov3/) " data-size="800x600">
-																			<img src="images/devblog/yolo.png"
-																			srcset="images/devblog/yolo.png 1x, images/devblog/yolo.png@2x.jpg 2x" alt="" class="center">
-																	</a>
-															</div>
-															<div class="folio-item__info">
-																	<div class="folio-item__cat">What is Yolo? credits to http://datahacker.rs/tensorflow2-0-yolov3/</div>
-																	<h4 class="folio-item__title">What is Yolo? credits to http://datahacker.rs/tensorflow2-0-yolov3//</h4>
-															</div>
-															<div class="folio-item__caption">
-																	<p>This figure shows how Yolo works for more information take a look at http://datahacker.rs/tensorflow2-0-yolov3/</p>
-															</div>
-
-													</div>
-											</div>
-
-									</h2>
-
-									<br>
-									The next thing, each cell is responsible for predicting some class probabilities. It doesn't mean each cell contains an object, this is just a probability. For example if a grid cell predicts car, it is not saying that there is a car, it is just saying that if there is an object, than that object is a car.
-									<br>
-
-									<br>
-									So decribe some things in more detail.
-									<br>
-
-									<br>
-									In Yolo, anchor boxes are used to predict bounding boxes. The main idea of this concept is to define different shapes. They are called anchor boxes or anchor box shapes. This leads to the possibility to relate to a single object through different anchor boxes. In general, different numbers of anchor boxes are used to find an object. With the help of the anchor boxes and probabilities an object can be located and classified.
-
-									</h2>
-
-									</p>
-
-									<div class="column 3">
-											<div class="folio-item-3">
-													<div class="folio-item__thumb-3">
-															<a class="folio-item__thumb-link" href="images/devblog/yoloanchor.png" title="How anchor boxes are working ? (credits to https://towardsdatascience.com/) " data-size="800x600">
-																	<img src="images/devblog/yoloanchor.png"
-																	srcset="images/devblog/yoloanchor.png 1x, images/devblog/yoloanchor.png@2x.jpg 2x" alt="" class="center">
-															</a>
-													</div>
-													<div class="folio-item__info">
-															<div class="folio-item__cat">How Yolo anchor boxes are working http://datahacker.rs/tensorflow2-0-yolov3/</div>
-															<h4 class="folio-item__title">How Yolo anchor boxes are working to http://datahacker.rs/tensorflow2-0-yolov3//</h4>
-													</div>
-													<div class="folio-item__caption">
-															<p>This figure shows how Yolo anchor boxes are working http://datahacker.rs/tensorflow2-0-yolov3/</p>
-													</div>
-											</div>
-									</div>
-
-									</h2>
-									<br>
-
-									<p style="color:#FFFFFF";
-									<h1 class="display-2">
-											How does YoloV3 look like ?
-									</h1>
-									</p>
-
-									<p style="color:#FFFFFF";
-									<h2 class="display-4">
-											The most import thing about YoloV3 is that it uses features at different scales, that is to detect objectes on different levels. This approach makes Yolo really accurate but it takes also some more computations and makes the network more complex.
-
-									</h2>
-
-									</p>
-
-									<div class="column 3">
-											<div class="folio-item-3">
-													<div class="folio-item__thumb-3">
-															<a class="folio-item__thumb-link" href="images/devblog/yolostructure.png" title="Yolo V3 structure (credits to https://pylessons.com/YOLOv3-TF2-introduction/) " data-size="800x600">
-																	<img src="images/devblog/yolostructure.png"
-																	srcset="images/devblog/yolostructure.png 1x, images/devblog/yolostructure.png@2x.jpg 2x" alt="" class="center">
-															</a>
-													</div>
-													<div class="folio-item__info">
-															<div class="folio-item__cat">Structure of YoloV3, credits to https://pylessons.com/YOLOv3-TF2-introduction/</div>
-															<h4 class="folio-item__title">Structure of YoloV3, credits to https://pylessons.com/YOLOv3-TF2-introduction/</h4>
-													</div>
-													<div class="folio-item__caption">
-															<p>This shows which structure YoloV3 has, credits to https://towardsdatascience.com/</p>
-													</div>
-											</div>
-									</div>
-
-									</h2>
-
-
-									<!--############################# -->
-									<br>
-
-
-
-
-									<!--############################# -->
-
-							</div> <!-- end  s-services--leftcol -->
-
-					</div> <!-- s-services__content -->
-
-			</section> <!-- end s-services -->
 
 			<!-- travelling
 		   ================================================== -->
