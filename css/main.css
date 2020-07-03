@@ -131,13 +131,21 @@ a:active {
 		outline: 0;
 }
 
+pre code {
+		background-color: #eee;
+		border: 1px solid #999;
+		display: block;
+		padding: 20px;
+}
+
 
 .center {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 75%;
-		height: 75%;
+		min-height: 0px;
+		min-width: 0px;
 }
 
 .img {
