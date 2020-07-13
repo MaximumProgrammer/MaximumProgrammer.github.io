@@ -1,0 +1,3 @@
+- [ ] Particles.js einbauen https://www.digitalocean.com/community/tutorials/js-background-effects-particlesjs
+- [ ] Bilder automatischen skalieren
+- [ ] Portfolio einfügen
