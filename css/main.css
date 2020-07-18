@@ -973,7 +973,7 @@ input[type="button"] {
 		display: inline-block;
 		font-family: "Work Sans", sans-serif;
 		font-weight: 600;
-		font-size: 1.3rem;
+		font-size: 1.8rem;
 		text-transform: uppercase;
 		letter-spacing: .6rem;
 		height: 6rem;
@@ -1057,8 +1057,8 @@ button.btn--medium {
 
 .btn--large,
 button.btn--large {
-		height: 6.8rem !important;
-		line-height: 6.4rem !important;
+		height: 7.2rem !important;
+		line-height: 7.6rem !important;
 }
 
 .btn--stroke,
@@ -2101,7 +2101,7 @@ input::-moz-focus-inner {
 		-webkit-box-direction: normal;
 		flex-flow: row wrap;
 		font-family: "Gothic A1", sans-serif;
-		font-size: 1.2rem;
+		font-size: 2.2rem;
 		font-weight: 700;
 		line-height: 3.2rem;
 		text-transform: uppercase;
