@@ -6,3 +6,4 @@ Readme and ToDo List:
 - [ ] Webseite sollte auch auf dem Handy sichtbar sein.
 - [ ] Portfolio akutalisieren eventuell ein eigenes Projekt schreiben.
 - [ ] Referencen neu anordneren eventuell die Links darin.
+- [ ] CVs aktualieren weil AVI-Systems nur HAYYES heißt.
