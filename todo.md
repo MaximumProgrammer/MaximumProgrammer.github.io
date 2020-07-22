@@ -7,3 +7,4 @@ Readme and ToDo List:
 - [ ] Portfolio akutalisieren eventuell ein eigenes Projekt schreiben.
 - [ ] Referencen neu anordneren eventuell die Links darin.
 - [ ] CVs aktualieren weil AVI-Systems nur HAYYES heißt.
+- [ ] Fürs Portfolio ein einfaches Spield und/oder Game of Life in 2D/3D machen.
